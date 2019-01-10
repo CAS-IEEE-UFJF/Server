@@ -1,0 +1,55 @@
+@media screen and (min-width: 700px){
+  .blog_init{
+    background: #d6b1e9;
+    margin: 20px 0px 20px 0px;
+    height: 300px;
+    width: 700px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .blog_init:hover{
+    background: #9779a6;
+    cursor: pointer;
+  }
+
+  .img{ /*540px por 200px. como "linkar" todo o container*/
+    height: 200px;
+    width: 540px;
+
+    border-radius: 2px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .blog_init{
+    background: #d6b1e9;
+    margin: 20px 10px 20px 10px;
+    height: 300px;
+    border-radius: 5px;
+  }
+  .blog_init:hover{
+    background: #9779a6;
+    cursor: pointer;
+  }
+
+  .img{
+    height: 230px;
+    width: 95%;
+
+    border-radius: 2px;
+  }
+}
+
+.postagens_texto{
+  color: #000000;
+  text-decoration: underline;
+}
+.blog_maim_marc_hover{
+  text-decoration: none;
+  color: #090909;
+  padding: 2px;
+}
+.blog_maim_marc_hover:hover{
+  background: #d6b1e9;
+  padding: 2px;
+}

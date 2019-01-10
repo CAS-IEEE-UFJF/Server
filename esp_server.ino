@@ -1,29 +1,3 @@
-# Server
-Servidor com html e css usando nodeMCU (ESP8266)
-
-Os arquivos .html e .css vão ficar dentro da memoria flash do ESP.
-
-<hr>
-* 1º passo:
-
-Uploading files to file system
-
-ESP8266FS is a tool which integrates into the Arduino IDE. It adds a menu item to Tools menu for uploading the contents of sketch data directory into ESP8266 flash file system.
-
-    * Download the tool: https://github.com/esp8266/arduino-esp8266fs-plugin/releases/download/0.1.3/ESP8266FS-0.1.3.zip.
-    * In your Arduino sketchbook directory, create tools directory if it doesn't exist yet
-    * Unpack the tool into tools directory (the path will look like <home_dir>/Arduino/tools/ESP8266FS/tool/esp8266fs.jar)
-    * Restart Arduino IDE
-    * Open a sketch (or create a new one and save it)
-    * Go to sketch directory (choose Sketch > Show Sketch Folder)
-    * Create a directory named data and any files you want in the file system there
-    * Make sure you have selected a board, port, and closed Serial Monitor
-    * Select Tools > ESP8266 Sketch Data Upload. This should start uploading the files into ESP8266 flash file system. When done, IDE status bar will display SPIFFS Image Uploaded message.
-<hr>
-
-* 2º passo: Code
-
-``` c++
 #include <Arduino.h>
 
 #include <ESP8266WiFi.h>
@@ -103,16 +77,3 @@ bool handleFileRead(String path) { // send the right file to the client (if it e
   Serial.println("\tFile Not Found");
   return false;                                         // If the file doesn't exist, return false
 }
-
-```
-
-* resultados:
-
-
-![](https://github.com/CAS-IEEE-UFJF/IEEE_door_ufjf/blob/master/item_adicionais/contador/esquematico_IMG.png)
-  
-  
-
-referencias:
-* [Upload memory flash](http://esp8266.github.io/Arduino/versions/2.0.0/doc/filesystem.html#file-system-object-spiffs)
-* [SPIFFS serve](https://tttapa.github.io/ESP8266/Chap11%20-%20SPIFFS.html)
