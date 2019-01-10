@@ -4,7 +4,7 @@ Servidor com html e css usando nodeMCU (ESP8266)
 Os arquivos .html e .css vão ficar dentro da memoria flash do ESP.
 
 <hr>
-* 1º passo:
+### * 1º passo:
 
 Uploading files to file system
 
@@ -21,7 +21,7 @@ ESP8266FS is a tool which integrates into the Arduino IDE. It adds a menu item t
     * Select Tools > ESP8266 Sketch Data Upload. This should start uploading the files into ESP8266 flash file system. When done, IDE status bar will display SPIFFS Image Uploaded message.
 <hr>
 
-* 2º passo: Code
+### * 2º passo: Code
 
 ``` c++
 #include <Arduino.h>
@@ -106,13 +106,13 @@ bool handleFileRead(String path) { // send the right file to the client (if it e
 
 ```
 
-* resultados:
+## * resultados:
 
 
-![](https://github.com/CAS-IEEE-UFJF/IEEE_door_ufjf/blob/master/item_adicionais/contador/esquematico_IMG.png)
+![](https://raw.githubusercontent.com/CAS-IEEE-UFJF/Server/master/img_readme/home.png)
   
   
 
-referencias:
+# * referencias:
 * [Upload memory flash](http://esp8266.github.io/Arduino/versions/2.0.0/doc/filesystem.html#file-system-object-spiffs)
 * [SPIFFS serve](https://tttapa.github.io/ESP8266/Chap11%20-%20SPIFFS.html)
