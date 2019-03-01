@@ -1,7 +1,7 @@
 ### Objetivo
 Criar um web server onde o cliente e o servidor possam se comunicar. Piscando led quando um botão é precionado e apagando quando o outro é precionado.
 
-![]()
+![](https://github.com/CAS-IEEE-UFJF/Server/blob/master/img_video/ezgif.com-video-to-gif.gif)
 
 
 ### Começando ...
