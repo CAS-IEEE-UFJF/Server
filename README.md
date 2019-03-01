@@ -1,11 +1,11 @@
 ### Objetivo
-Criar um web server onde o cliente e o servidor possam se comunicar. Piscando led quando um botão é precionado e apagando quando o outro é precionado.
+Criar um web server onde o cliente e o servidor possam se comunicar. Piscando led quando um botão é pressionado  e apagando quando o outro é pressionado .
 
 ![](https://github.com/CAS-IEEE-UFJF/Server/blob/master/img_video/ezgif.com-video-to-gif.gif)
 
 
 ### Começando ...
-<i>lembre-se que a comunicação entre esp e cliente sempre é feita usando um roteador</i>
+<i>Lembre-se que a comunicação entre esp e cliente sempre é feita usando um roteador</i>
 
 ## pt 1
 
@@ -78,7 +78,7 @@ String all_html ()
 }
 ```
 
-* No void loop vamos verificar se tem algum cliente conentado.
+* No void loop vamos verificar se tem algum cliente conectado.
 
 ``` C++
 void loop()
