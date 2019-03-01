@@ -145,6 +145,7 @@ void loop()
 E se os file html, css e javascript estiverem na memória flash do esp? como fica o web server????
 
 <hr>
+
 ### Referência
 
 https://randomnerdtutorials.com/esp8266-web-server-with-arduino-ide/  14h 01/03/2019
